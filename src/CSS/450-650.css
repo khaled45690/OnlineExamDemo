@@ -1,0 +1,340 @@
+@media only screen and (min-width:450px) and (max-width: 650px) {
+    body , h3 , div , ul  {
+      max-width:100%;
+    }
+  
+    .profile-image{
+      width: 60%;
+      margin-right: 50px;
+      height: 200px;
+      float:right;
+      margin-bottom: 30px;
+      
+      
+  }
+
+  .Main-right{
+    display: none;
+    height: 100%;
+    width: 270px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    margin-top: 100px;
+    background-image:linear-gradient(54deg, rgba(2,0,36,1) 0%, rgba(47,47,207,0.2) 0%, rgba(25,123,229,0.5) 67%, rgba(0,212,255,0.7) 100%),
+     url('./../img/sidebar-2.jpg');
+  background-size: 170% 100%;
+    overflow-x: hidden;
+    padding-top: 20px;
+    opacity: 1 !important;
+  }
+
+  .MainMenuStyle{
+  display: flex;
+  }
+  .MainMenuStyleDiv{
+    width: 100%;
+    background-color: lightslategray;
+    opacity: 0.6;
+    position: fixed;
+    top: 0;
+    left:0;
+    overflow-x: hidden;
+    height: 100% !important;
+  }
+  
+
+  .appBar{
+    top: 55px !important;
+    box-shadow: 0 0 !important;
+    display: block !important;
+  }
+  
+    .right-mobile{
+      padding-left: 0;
+      margin-left:0;
+    }
+    
+    .containers{
+        padding-bottom:250px;
+    }
+    .containerss{
+        padding-bottom:30px;
+        padding-top:20px;
+    }
+    .student-info{
+        width:300px;
+        padding-left: 10px;
+        margin-bottom: 0;
+        margin-top: 100px;
+        display: none;
+    }
+    .student-info-link{
+      background-color: none !important;
+      color:#EAFCE0;
+      float:right;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .hovers:hover{
+      background-image:linear-gradient(45deg, rgba(33,150,243,0.3) 30%, rgba(33,203,243,0.3) 90%);
+      color: #EAFCE0;
+      cursor: pointer;
+    
+      font-family: 'Tajawal' !important;
+    }
+    
+    .info{
+      z-index: 3;
+      width:100%;
+      float: left;
+      min-height: 600px;
+      border-radius: 40px;
+      border:rgb(172, 170, 170);
+      border-width:3px ;
+      border-style: solid;
+    }
+    .show{
+        display:block !important;
+    }
+    
+    .line{
+        border-top:black;
+        border-block-end-style: solid;
+        float:right;
+        width:250px;
+        margin-right: 30px;
+        margin-top:-30px;
+        border-block-end-width: 1px;
+    }
+    .liner {
+      display: none;
+    }
+  
+    .float-right{
+      margin-left:50px;
+      width:300px;
+      text-align: right;
+    float:right;
+    margin-bottom: 0;
+  }
+  .flexs{
+    display:flex;
+    text-align: right;
+    margin-right:-15px;
+    height: 30px;
+    margin-top:40px;
+    margin-bottom:-40px;
+  
+  }
+  
+  .current{
+    width: 170px;
+    margin:0;
+    padding-left: 0;
+    font-size: 13px !important;
+    font-family: 'Tajawal' !important;
+  }
+  .pull-left{
+      float: right !important;
+      width: 100% !important;
+  }
+  
+  .txt{
+    margin-right: 60px; 
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .slider-position{
+    margin-top: -300px ; 
+    width:700px;
+    float:right;
+  }
+  
+  .size{
+    height: 450px;
+    margin-top: 0px;
+  }
+
+  
+  
+  .wid{
+    max-width: 95%;
+    text-align: left;
+  }
+  
+  
+  .pd-f{
+    margin-top: 0px !important;
+    padding-left:50px;
+  }
+  .resize{
+    width:220px !important;
+    right:20px !important;
+    top:105px  !important;
+  }
+  .complete-input{
+    width:140px !important;
+  }
+
+  .choiceflex{
+    display: block;
+  }
+  .board{
+    margin:0 20px !important;
+    width:100% !important;
+  }
+
+  .question-input{
+    width: 100% !important;
+  }
+
+  .input-flexs{
+    display: block;
+  }
+  .input-flex{
+    display: flex;
+  }
+  
+  
+  .rearrange {
+    margin-left:30px !important;
+    margin-top:30px !important;
+  }
+
+  .addbtndiv{
+    text-align: right;
+    margin: 20px 50px;
+  }
+
+  .logo{
+   display:none;
+  }
+  .mrl{
+    margin-left:0;
+  }
+
+
+.removes{
+    margin-left: 10px;
+    margin-bottom: -30px;
+    font-size: 24px;
+    padding-top: 25px;
+    cursor: pointer;
+  }
+  /* .warning{
+    display: block;
+    background-color: black;
+    color: blanchedalmond;
+    width: 100%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    padding-top: 200px;
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+}
+
+.color-white{
+    display: none;
+} */
+
+
+.info-head{
+  text-align: right;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Lateef', serif !important;
+}
+
+.info-body{
+  z-index: 3;
+  text-align: right;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:'Lateef', serif !important;
+  display: flex;
+  width: 100%;
+
+}
+.info-container{
+  padding-bottom: 20px;
+  margin-right: 0;
+  z-index: 3;
+}
+
+.info-button{
+  border:black;
+  border-width:3px ;
+  border-style: solid;
+  padding: 0 40px;
+  margin-left: 30px;
+  border-radius: 10px;
+  height: 40px;
+  background-color: inherit !important;
+}
+
+.info-button:hover{
+  border:black;
+  border-width:3px ;
+  border-style: solid;
+  padding: 0 40px;
+  margin-left: 30px;
+  border-radius: 10px;
+  height: 40px;
+  background-image: linear-gradient(to bottom left, #86bc42, rgb(198, 240, 176 ) , #EAFCE0 , rgb(198, 240, 176 )  ,#86bc42);
+}
+
+.info-border{
+  border:black;
+  border-width:3px ;
+  border-style: solid;
+  padding: 5px 0px;
+  margin-left: 0px;
+  border-radius: 10px;
+  height: 40px;
+  width: 200px;
+  text-align: center;
+}
+
+.info-uploader{
+  cursor: pointer;
+  border:black;
+  border-width:3px ;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  height: 40px;
+  width: 200px;
+  padding: 0px;
+  
+}
+
+
+.info-uploader:hover{
+  background-image: linear-gradient(to bottom left, #86bc42, rgb(198, 240, 176 ) , #EAFCE0 , rgb(198, 240, 176 )  ,#86bc42);
+  cursor: pointer;
+  border:black;
+  border-width:3px ;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  height: 40px;
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.inpo{
+  width: 600px !important;
+  float: right !important;
+}
+  }

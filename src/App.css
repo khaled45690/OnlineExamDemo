@@ -1,0 +1,583 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+  /* font-family: 'Amiri', serif; */
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+  /*font-family: 'Droid Arabic Naskh', serif;*/
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/lateef.css);
+  /* font-family: 'Lateef', serif; */
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/scheherazade.css);
+  /*font-family: 'Scheherazade', serif;*/
+  
+  @import url(https://fonts.googleapis.com/earlyaccess/thabit.css);
+  /* font-family: 'Thabit', serif; */
+
+  @import url(https://fonts.googleapis.com/css?family=Tajawal);
+
+  /* font-family:'Lateef', serif !important; */
+      
+.appBar{
+  top: 60px !important;
+  box-shadow: 0 0 !important;
+  display: none !important;
+}
+  html, body {height: 100%; direction: rtl; }
+.equa{
+  direction: ltr;
+  padding: 100px;
+  font-size: 25px;
+}
+.MathQuill{
+  width:200px;
+}
+.size{
+  height:550px !important;
+  width:100% !important;
+}
+
+.profile-image{
+  width: 55%;
+  margin-top: 20px;
+  margin-right: 60px;
+  border-radius: 30px;
+  height: 200px;
+  float:right;
+  margin-bottom: 30px;
+
+}
+.rearrange {
+  margin-left:100px !important;
+}
+.MenuIconButton{
+  width:100px !important;
+  color:white !important;
+}
+/* .Main-right{
+  border:rgb(172, 170, 170);
+  border-width:3px ;
+  border-style: solid;
+  height: 600px;
+  width: 20%;
+  border-radius: 30px;
+  background-image: linear-gradient(to bottom left, rgb(198, 240, 176 ) , #EAFCE0  , #EAFCE0   , #EAFCE0, rgb(198, 240, 176 ) );
+  margin-right: 50px;
+  margin-left: 10px !important;
+  overflow: auto;
+float: right;
+  margin-top: 5px;
+} */
+
+.Main-right{
+  display: block ;
+  height: 100%;
+  width: 260px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  margin-top: 30px;
+  background-image:linear-gradient(54deg, rgba(2,0,36,1) 0%, rgba(47,47,207,0.2) 0%, rgba(25,123,229,0.5) 67%, rgba(0,212,255,0.7) 100%),
+   url('./img/sidebar-2.jpg');
+  background-size: 170% 100%;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.MainMenuStyleDiv{
+  display: none;
+}
+
+.reposition{
+  top:30px;
+  cursor: pointer;
+  left:200px !important;
+ 
+  margin-right:50 !important;
+  width: 10px;
+  cursor: pointer;
+float: left;
+background-color: white !important;
+}
+.containers{
+  padding-bottom:250px;
+  padding-top:0;
+}
+.containerss{
+  width:100%;
+  color: #eafce0;
+  margin-top: 20px !important;
+  border-radius: 15px;
+  padding-bottom:40px;
+  padding-top:20px;
+}
+
+
+.student-info-link{
+  background-color: none !important;
+  color:#EAFCE0;
+  float:right;
+  font-size: 20px;
+  font-family: 'Tajawal' !important;
+}
+.hovers:hover{
+  background-image:linear-gradient(45deg, rgba(33,150,243,0.3) 30%, rgba(33,203,243,0.3) 90%);
+  color: #EAFCE0;
+  cursor: pointer;
+
+  font-family: 'Tajawal' !important;
+}
+.student-info{
+  width:500px;
+  padding-left: 50px;
+  margin-top: -400px;
+  margin-bottom: 400px;
+  display: none;
+}
+
+.show{
+  display:block !important;
+}
+
+.line{
+  border-top:black;
+  border-block-end-style: solid;
+  float:right;
+  width:250px;
+  margin-right: 30px;
+  margin-top:-30px;
+  border-block-end-width: 1px;
+}
+.slider-position{
+  margin-top: -300px ; 
+  
+  float:right;
+}
+.txt{
+  margin-right: 200px; 
+  text-align: center;
+}
+.flexs{
+  display:inline-flex;
+  margin-top: 70px;
+}
+.bor{
+  border-radius: 0;
+}
+
+.CSS{
+  border-radius: 0;background-color: #86bc42;border-color: #86bc42; margin-right:200px !important;
+}
+
+.TRA{
+  transform: rotate(360deg) !important;
+  width:100px;
+  
+}
+
+.co{
+  color: black;text-align: center;
+}
+
+
+.mr-b42{
+  margin-bottom: 42px;
+}
+
+.color-white{
+  background:#efefe9;
+}
+
+
+.underline::after{
+right:50px;
+}
+
+.Q1{
+  text-align: right;
+  margin-top: 10px;
+}
+
+.question-form{
+  text-align: right;
+  margin-top: 10px;
+  display:none;
+}
+
+.question-input{
+  width:500px !important;
+  text-align-last: right;
+}
+
+.mr-30{
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.complete-input{
+  width:200px!important;
+  margin-left:20px;
+  margin-bottom:20px;
+  
+}
+.choiceflex{
+  display: flex;
+}
+.box figure svg{
+  width:20px !important;
+  margin-right: 40px !important;
+  margin-top: 5px !important;
+}
+.box figure {
+  width:30px !important;
+  height: 30px !important;
+}
+.box label {
+  width:100px !important;
+  height: 30px !important;
+}
+.box:hover , .box label ,.box figure ,.box figure svg {
+cursor: pointer;
+}
+.choice-input{
+  width:150px!important;
+  margin-left:20px;
+  margin-bottom:20px;
+  
+}
+.choicediv{
+  display: flex;
+}
+.choiceradio{
+  margin-left: 5px !important;
+  margin-top: 10px !important;
+}
+
+.current{
+  font-family: 'Tajawal' !important;
+  padding-top: 0;
+  padding-left: 0;
+  font-size: 20px !important;
+  height: 70px;
+}
+.logo{
+  left: 0 !important;
+  position: fixed;
+  margin-top: -10px;
+  cursor: pointer;
+  font-family: Apple Chancery, cursive !important;
+  color: white;
+}
+.input-flexs{
+  display:flex
+}
+.myList{
+  float : left ;
+  margin-left:70px;
+  margin-top:20px;
+}
+
+.Qradioinput{
+  margin-top: 30px !important;
+}
+
+.pd-f{
+  margin-top: 0 !important;
+  padding-left:250px;
+}
+strong
+{
+    font-weight: bold !important;
+}
+
+.resize{
+  width:540px !important;
+  right:10px !important;
+}
+.image-size{
+  height: 40px;
+}
+
+.reposi{
+  margin-right:40px;
+}
+
+.addbtndiv{
+  text-align: right;
+  margin: 20px 250px;
+}
+
+.mrl{
+  margin-left:85%;
+}
+
+.info{
+
+  min-height: 600px;
+  overflow: auto;
+  width: 100%;
+
+
+}
+.Teacher_Profile{
+  background-color: #e3f2fd;
+}
+.info-modification{
+  width: 40%;
+  border-radius: 20px;
+  background-color: white;
+  min-height: 600px;
+}
+.info-head{
+  text-align: right;
+  background-color: #3f51b5;
+  color: #EAFCE0;
+  border-radius: 20px;
+  padding: 20px;
+  font-size: 30px;
+  font-family: 'Tajawal' !important ; 
+  font-style: normal !important;
+  box-shadow: 0 5px 30px 1px #3f51b5 !important;
+}
+.tagraba{
+  direction: rtl !important;
+  text-align: right !important;
+  float: right !important;
+  margin-left: 30px !important;
+}
+.info-body{
+  direction: rtl !important;
+  text-align: right;
+  padding: 20px;
+  font-size: 20px;
+  font-family: 'Tajawal' !important;
+  display: flex;
+  width: 100%;
+
+}
+.info-container{
+  margin-right: 280px;
+  padding-bottom: 20px;
+  height: unset !important;
+  overflow: auto;
+}
+
+.info-button{
+color: white !important;
+  height: 40px;
+  width: 200px !important;
+  background-color: #3f51b5 !important;
+
+}
+
+.info-button:hover{
+  height: 40px;
+  box-shadow: 0 5px 20px 1px #3f51b5 !important;
+}
+
+.info-button-div{
+  bottom: 80px !important;
+  margin-right: 10px;
+  position: fixed;
+}
+
+
+.info-border{
+  border:black;
+  border-width:3px ;
+  border-style: solid;
+  padding: 10px 10px;
+  margin-left: 30px;
+  border-radius: 10px;
+  height: 40px;
+  width: 180px;
+  text-align: center;
+}
+.inpo{
+  width: 600px;
+  float: right !important;
+}
+
+.removes{
+  margin-left: 30px;
+  margin-bottom: -30px;
+  font-size: 24px;
+  padding-top: 25px;
+  cursor: pointer;
+}
+
+.warning{
+  display:none;
+}
+.board{
+  min-height: 500px;
+}
+.info-uploader{
+  cursor: pointer;
+  border:black;
+  border-width:3px ;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  height: 40px;
+  padding-top: 5px;
+  padding-right: 50px;
+  padding-left: 50px;
+  
+}
+
+
+.info-uploader:hover{
+  background-image: linear-gradient(to bottom left, #86bc42, rgb(198, 240, 176 ) , #EAFCE0 , rgb(198, 240, 176 )  ,#86bc42);
+  cursor: pointer;
+  border-width:3px ;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  height: 40px;
+  padding-top: 5px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.ExamChecking{
+
+  cursor: pointer;
+  border-width:3px ;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+  float: right;
+  width: 150px;
+  height: 40px;
+  background-color: inherit;
+}
+
+.ExamChecking:hover{
+  background-image: linear-gradient(to bottom left, #86bc42, rgb(198, 240, 176 ) , #EAFCE0 , rgb(198, 240, 176 )  ,#86bc42);
+}
+
+.Qimage{
+  width:300px;
+}
+
+.teacher_category{
+  float: left;
+  display: flex;
+  margin-top: 0px;
+  margin-left: 200px;
+}
+
+.teacher_category  .info-uploader{
+  margin-left: 20px;
+}
+
+
+.teacher_category  .info-uploader:hover{
+  background-image: linear-gradient(to bottom left, #86bc42, rgb(198, 240, 176 ) , #EAFCE0 , white , white , #EAFCE0 , rgb(198, 240, 176 )  ,#86bc42);
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.teacher-search-photo{
+  width:100px;
+  border-radius: 30px;
+  margin-right: 10px;
+  height:160px;
+}
+
+.search-teacher-btn{
+  float: left !important;
+  margin-top:50px ;
+  margin-right:200px ;
+}
+
+
+ .overflowcss{
+   overflow: auto;
+   
+ }
+ .ExamShowingButton{
+  width: 100px;
+  height: 30px;
+  background-color: inherit;
+  cursor: pointer;
+  border-width:3px ;
+  border-style: solid;
+  border-radius: 10px;
+  text-align: center;
+   margin-left: 100px;
+   margin-bottom: -50px;
+   margin-top: 30px;
+ }
+
+ .ExamShowingButton:hover{
+  background-image: linear-gradient(to bottom left, #86bc42, rgb(198, 240, 176 ) , #EAFCE0 , white , white , #EAFCE0 , rgb(198, 240, 176 )  ,#86bc42);
+ }
+a{
+  margin-left: 0 !important;
+}
+ .pull-left{
+ 
+    float: left !important;
+    width: 470px !important;
+    
+    padding-top: 0px;
+    padding-top: 20px;
+ }
+
+ .avalabel_Exam{
+   width: 35%;
+ }
+
+ .footer{
+   padding: 20px;
+   background-color: #3f51b5;
+ }
+ .footerp{
+   color:white;
+   margin-bottom: 0;
+
+ }
+ .footerdiv{
+   display: flex;
+   direction: ltr;
+ }
+ .LOGBTN{
+  background-image: linear-gradient(45deg, #2196F3 30%, #21CBF3 90%) !important ;
+  color: #EAFCE0 !important;
+  margin-right: 10px !important;
+  width: 200px !important;
+  height: 50px !important;
+  border-radius: 20px !important  ;
+  box-shadow: 0 3px 5px 2px rgba(33, 203, 243, .3) !important;
+ }
+
+ .LOGBTN:hover{
+  background-image: linear-gradient(45deg, #2196F3 100%, #21CBF3 0%) !important ;
+
+ }
+
+ .edite{
+   text-decoration: underline;
+   margin-bottom: 0;
+   float: right;
+   overflow: auto;
+  }
+  .Icon{
+    margin-left: 10px;
+  }
+
+ a {
+  text-decoration-style: none !important;
+}
+
+a:visited {
+  text-decoration-style: none !important;
+}
+
+a:hover {
+  text-decoration-style: none !important;
+}
+a:-webkit-any-link{
+  text-decoration: none !important;
+}

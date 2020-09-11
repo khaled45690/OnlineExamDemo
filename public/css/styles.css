@@ -1,0 +1,67 @@
+
+.profile-image{
+    margin-top: 20px;
+    width: 15%;
+    margin-right: 40px;
+    float:right;
+    margin-bottom: 30px;
+    
+}
+
+.containers{
+    padding-bottom:300px;
+    padding-top:30px;
+}
+.containerss{
+    padding-bottom:50px;;
+    padding-top:30px;
+}
+
+.containers3{
+    padding-bottom:130px;
+    padding-top:30px;
+}
+
+
+.student-infos{
+    margin-bottom:300px;
+    width:500px;
+    padding-left: 50px;
+    margin-top: -400px;
+    margin-bottom: 400px;
+    display: none;
+    float: left;
+}
+
+.show{
+    display:block !important;
+}
+
+.lines{
+    border-top:black;
+    border-block-end-style: solid;
+  
+    width:250px;
+    margin-right: 10px;
+    margin-top:-15px;
+    border-block-end-width: 1px;
+}
+.flexs{
+    display:inline-flex;
+    margin-top: 30px;
+}
+.current{
+    padding-left: 20px;
+    font-size: 16px;
+    padding-right: 0;
+    text-align: right;
+    margin-top: -40px !important;
+}
+
+.mr{
+    margin-bottom: 42px;
+}
+
+.pd{
+    padding: 20px !important;
+}

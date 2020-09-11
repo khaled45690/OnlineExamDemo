@@ -1,0 +1,236 @@
+@media only screen and (min-width:650px) and (max-width: 850px) {
+    body , h3 , div , ul  {
+      max-width:100%;
+    }
+  
+    .profile-image{
+        width: 60%;
+        margin-right: 50px;
+        height: 200px;
+        float:right;
+        margin-bottom: 30px;
+        
+        
+    }
+    .Main-right{
+      height: 100%;
+      width: 260px;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      right: 0;
+      margin-top: 30px;
+      background-image:linear-gradient(54deg, rgba(2,0,36,1) 0%, rgba(47,47,207,0.2) 0%, rgba(25,123,229,0.5) 67%, rgba(0,212,255,0.7) 100%),
+       url('./../img/sidebar-2.jpg');
+    background-size: 170% 100%;
+      overflow-x: hidden;
+      padding-top: 20px;
+    }
+  
+    .right-mobile{
+      padding-left: 0;
+      margin-left:0;
+    }
+    
+    .containers{
+        padding-bottom:250px;
+    }
+    .containerss{
+        padding-bottom:30px;
+        padding-top:20px;
+    }
+    
+    .student-info-link{
+      background-color: none !important;
+      color:#EAFCE0;
+      float:right;
+      font-size: 20px;
+      font-family: 'Tajawal' !important;
+    }
+    .hovers:hover{
+      background-image:linear-gradient(45deg, rgba(33,150,243,0.3) 30%, rgba(33,203,243,0.3) 90%);
+      color: #EAFCE0;
+      cursor: pointer;
+    
+      font-family: 'Tajawal' !important;
+    }
+    .student-info{
+        width:300px;
+        padding-left: 10px;
+        margin-bottom: 0;
+        margin-top: 100px;
+        display: none;
+    }
+    
+    .info{
+      width:100%;
+      float: left;
+      min-height: 600px;
+      border-radius: 40px;
+      border:rgb(172, 170, 170);
+      border-width:3px ;
+      border-style: solid;
+    }
+    .info-border{
+      border:black;
+      border-width:3px ;
+      border-style: solid;
+      padding: 5px 0px;
+      margin-left: 0px;
+      border-radius: 10px;
+      height: 40px;
+      width: 200px;
+      text-align: center;
+    }
+
+    .info-uploader{
+      cursor: pointer;
+      border:black;
+      border-width:3px ;
+      border-style: solid;
+      border-radius: 10px;
+      text-align: center;
+      height: 40px;
+      width: 200px;
+      padding: 0px;
+      
+    }
+    .inpo{
+      width: 500px;
+      float: right !important;
+    }
+    .show{
+        display:block !important;
+    }
+    
+    .line{
+        border-top:black;
+        border-block-end-style: solid;
+        float:right;
+        width:250px;
+        margin-right: 30px;
+        margin-top:-30px;
+        border-block-end-width: 1px;
+    }
+  
+    .float-right{
+      margin-left:50px;
+      width:300px;
+      text-align: right;
+    float:right;
+    margin-bottom: 0;
+  }
+  .flexs{
+    display:flex;
+    text-align: right;
+    margin-right:-15px;
+    height: 30px;
+    margin-top:40px;
+    margin-bottom:-40px;
+  
+  }
+  
+  .current{
+    width: 180px;
+    margin:0;
+    padding-top: -10px;
+    padding-left: 0;
+    font-size: 13px !important;
+    font-family: 'Tajawal' !important;
+  }
+  .pull-left{
+      float: left !important;
+      width: 470px !important;
+  }
+  .liner {
+    display: none;
+  }
+  
+  .txt{
+    margin-right: 200px; 
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .slider-position{
+    margin-top: -300px ; 
+    width:700px;
+    float:right;
+  }
+  
+  .size{
+    height: 500px;
+    margin-top: 0px;
+  }
+
+  
+  
+  .wid{
+    max-width: 95%;
+    text-align: left;
+  }
+  
+  
+  .pd-f{
+    margin-top: 0px !important;
+    padding-left:50px;
+  }
+  
+  .resize{
+    width:270px !important;
+    right:30px !important;
+    top:100px  !important;
+  }
+  .complete-input{
+    width:140px !important;
+  }
+  .board{
+    margin:0 15px !important;
+    width:100% !important;
+  }
+  
+  .rearrange {
+    margin-left:20px !important;
+  }
+
+  .addbtndiv{
+    text-align: right;
+    margin: 20px 40px;
+  }
+
+  .logo{
+      padding: 10px !important;
+      margin: 0 !important;
+      width:130px;
+  }
+  .mrl{
+    margin-left:0;
+  }
+  .question-input{
+    width:100% !important;
+  }
+  .choice-input{
+    width:120px !important;
+  }
+  /* .warning{
+    display: block;
+    background-color: black;
+    color: blanchedalmond;
+    width: 100%;
+    overflow: auto;
+    overflow-wrap: break-word;
+    padding-top: 200px;
+    height: 400px;
+    text-align: center;
+    font-size: 30px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    z-index: 0;
+}
+
+.color-white{
+    display: none;
+} */
+  }
